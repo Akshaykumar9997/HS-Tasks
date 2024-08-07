@@ -8,9 +8,12 @@ import freefire from "../Assests/6.jpeg";
 import god from "../Assests/7.jpeg";
 import gta from "../Assests/8.jpeg";
 import cod2 from "../Assests/9.jpeg";
+import Navbar from "./Navbar";
+import { Outlet } from "react-router-dom";
 
 function Home() {
   return (
+    <>
     <section className="bg-secondary" >
       <div>
         <h1 className="font-serif text-center font-bold">CHOOSE YOUR ONE</h1>
@@ -90,6 +93,7 @@ function Home() {
 
       </div>
     </section>
+    </>
   );
 }
 
